@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --red: #D01C28;
+  --gray:#5A5959;
+
+
+}
+.navContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1440px;
+  height: 72px;
+  margin: 0 auto;
+}
+.navContainer ul{
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+}
+ button{
+  padding: 6px 16px;
+  background-color: var(--red);
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
+
+.heroSction{
+  display: flex;
+  align-items: center;
+  max-width: 1125px;
+  height: calc(100vh - 72px);
+  margin: auto;
+}
+
+.heroLeft{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.heroLeft h1{
+  font-size: 77px;
+  font-weight: 800;
+  line-height: 102px;
+}
+.heroLeft p{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 404px;
+  color: var(--gray);
+}
+.hero_btn{
+  display: flex;
+  gap: 40px;
+}
+.secondarybtn{
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid gray;
+}
+.shopping p{
+  margin-bottom: 10px;
+}
+.shopping_icon{
+  display: flex;
+  gap: 16px;
+}
